@@ -12,10 +12,4 @@ HFOJ #1023
 url: http://www.hfoj.net/problem/1023
 """
 
-s = [letter for letter in input()]
-t = [letter for letter in input()]
-
-if sorted(s) == sorted(t):
-    print("YES")
-else:
-    print("NO")
+print(["NO", "YES"][sorted(list(input())) == sorted(list(input()))])

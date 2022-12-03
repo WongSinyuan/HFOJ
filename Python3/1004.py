@@ -12,6 +12,4 @@ HFOJ #1004
 url: http://www.hfoj.net/problem/1004
 """
 
-print("  *")
-print(" ***")
-print("*****")
+print("  *\n ***\n*****")

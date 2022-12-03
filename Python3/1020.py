@@ -11,3 +11,6 @@
 HFOJ #1020
 url: http://www.hfoj.net/problem/1020
 """
+import math
+
+print(math.ceil(int(input()) / (1 - 1 * 10 ** 3 / 2 ** 10)))

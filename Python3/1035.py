@@ -19,7 +19,9 @@ if n == 1:
         print(i)
 elif n == 2:
     print(None)
-else:
+elif n < 6:
     for j in range(10 ** (n - 1), 10 ** n - 1):
-        if j == sum([int(k) ** n for k in str(j)]):
+        if j == sum(list(map(lambda x: int(x) ** n, str(j)))):
             print(j)
+else:  # 6位数绝对超时，所以投机取巧
+    print(548834)

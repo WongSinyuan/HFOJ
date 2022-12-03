@@ -11,10 +11,8 @@
 HFOJ #1062
 url: http://www.hfoj.net/problem/1062
 """
-import time
 
-n = 100000
-begin = time.time()
+n = int(input())
 
 s = list(range(3, n, 2))
 
@@ -32,6 +30,4 @@ while m <= int(n ** 0.5):
     m = 2 * i + 3
 
 res = [2] + [x for x in s if x]
-print(" ".join(map(str, res)))
-
-print((time.time() - begin) * 1000)
+print(" ".join(map(str, res)))  # 10ms的时限过于变态

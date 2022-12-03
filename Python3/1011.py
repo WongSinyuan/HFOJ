@@ -10,9 +10,7 @@
 文件说明:HFOJ #1011
 """
 
-l = input()
-
-x, m, n = [int(i) for i in l.split(" ")]
+x, m, n = list(map(float, input().split()))
 
 b = (x - 30 * m) / (m + n)
 a = b + 30

@@ -11,4 +11,5 @@
 HFOJ #1002
 url: http://www.hfoj.net/problem/1002
 """
+
 print("Hello, World!")

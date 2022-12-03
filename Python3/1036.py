@@ -11,39 +11,22 @@
 HFOJ #1036
 url: http://www.hfoj.net/problem/1036
 """
+s = list(input())
 
-letters = "abcdefghijklmnopqrstuvwxyz"
-nums = [letters.index(s) for s in input()]
-nums_ = nums.copy()
+min_index = sum([(x + 1) * (26 ** a) for a, x in zip(range(len(s)),
+                                                     ["abcdefghijklmnopqrstuvwxyz".index(n) for n in s[:: -1]])])
 
+change = [-1, -1]
 
-def find_last_min(l: list, index_=0) -> int:
-    if not l:
-        return 0
-    min_num = min(l)
-    index = 0
-    while l.count(min_num) > 1 or l.index(min_num) == 0:
-        l.remove(min_num)
-        index += 1
-        if l.count(min_num) == 0:
-            return find_last_min(l, index_=index)
-    return index + l.index(min_num) + index_
+for i in range(len(s)):
+    for j in range(i + 1, len(s)):
+        u_s = s.copy()
+        u_s[i], u_s[j] = u_s[j], u_s[i]
+        index = sum([(x + 1) * (26 ** a) for a, x in zip(range(len(u_s)),
+                                                         ["abcdefghijklmnopqrstuvwxyz".index(n) for n in u_s[:: -1]])])
+        if index < min_index:
+            min_index = index
+            change = [i, j]
 
-
-def find_second_min(l: list):
-    for i in range(len(l)):
-        if l[i] > l[find_last_min(l.copy())]:
-            return i
-    return -1
-
-
-index1 = find_last_min(nums.copy())
-index2 = find_second_min(nums.copy())
-
-if index1 != 0 and index2 != -1:
-    nums.pop(index1)
-    nums.pop(index2)
-    nums.insert(index1, nums_[index2])
-    nums.insert(index2, nums_[index1])
-
-print("".join([letters[i] for i in nums]))
+s[change[0]], s[change[1]] = s[change[1]], s[change[0]]
+print("".join(s))
