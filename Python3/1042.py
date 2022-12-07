@@ -10,7 +10,7 @@
 """
 HFOJ #1042 Never Going To Give you up
 
-url: https://www.bilibili.com/video/BV1GJ411x7h7/?share_source=copy_web&vd_source=7ec03f2cd66b5a562ac17bd7b8cb5129
+url: https://www.bilibili.com/video/BV1GJ411x7h7
 """
 
 # ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
