@@ -8,7 +8,8 @@
 # @GitHub: https://github.com/WongSinyuan/HFOJ
 
 """
-HFOJ #1050
+HFOJ #1050 最大跨度
+
 url: http://www.hfoj.net/problem/1050
 """
 input()

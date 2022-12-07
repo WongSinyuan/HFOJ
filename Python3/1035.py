@@ -8,7 +8,8 @@
 # @GitHub: https://github.com/WongSinyuan/HFOJ
 
 """
-HFOJ #1035
+HFOJ #1035 自幂数
+
 url: http://www.hfoj.net/problem/1035
 """
 

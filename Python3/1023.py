@@ -8,7 +8,8 @@
 # @GitHub: https://github.com/WongSinyuan/HFOJ
 
 """
-HFOJ #1023
+HFOJ #1023 异位词组
+
 url: http://www.hfoj.net/problem/1023
 """
 

@@ -8,7 +8,8 @@
 # @GitHub: https://github.com/WongSinyuan/HFOJ
 
 """
-HFOJ #1041
+HFOJ #1041 数字反转
+
 url: http://www.hfoj.net/problem/1041
 """
 

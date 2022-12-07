@@ -8,7 +8,8 @@
 # @GitHub: https://github.com/WongSinyuan/HFOJ
 
 """
-HFOJ #1072
+HFOJ #1072 图像相似度1
+
 url: http://www.hfoj.net/problem/1072
 """
 

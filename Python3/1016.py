@@ -8,7 +8,8 @@
 # @GitHub: https://github.com/WongSinyuan/HFOJ
 
 """
-HFOJ #1016
+HFOJ #1016 数字位
+
 url: http://www.hfoj.net/problem/1016
 """
 

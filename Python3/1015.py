@@ -8,7 +8,8 @@
 # @GitHub: https://github.com/WongSinyuan/HFOJ
 
 """
-HFOJ #1015
+HFOJ #1015 修路工人
+
 url: http://www.hfoj.net/problem/1015
 """
 

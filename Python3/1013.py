@@ -8,7 +8,8 @@
 # @GitHub: https://github.com/WongSinyuan/HFOJ
 
 """
-HFOJ #1013
+HFOJ #1013 温度转换
+
 url: http://www.hfoj.net/problem/1013
 """
 

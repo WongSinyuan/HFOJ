@@ -8,7 +8,8 @@
 # @GitHub: https://github.com/WongSinyuan/HFOJ
 
 """
-HFOJ #1066
+HFOJ #1066 分身数对
+
 url: http://www.hfoj.net/problem/1066
 """
 targe = list(map(int, input().split()))[1]

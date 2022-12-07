@@ -8,18 +8,11 @@
 # @GitHub: https://github.com/WongSinyuan/HFOJ
 
 """
-HFOJ #1045
+HFOJ #1045 数字累加
+
 url: http://www.hfoj.net/problem/1045
 """
-n = 1
-i = 1
-c = 0
-for _ in range(int(input())):
-    c += n
-    if n == i:
-        n += 1
-        i = 1
-    else:
-        i += 1
-
-print(c)
+n = int(input())
+t = (1 + n) * (n // 2)
+t += n // 2 + 1 if n % 2 != 0 else 0
+print(t)

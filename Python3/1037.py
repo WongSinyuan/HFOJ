@@ -8,7 +8,8 @@
 # @GitHub: https://github.com/WongSinyuan/HFOJ
 
 """
-HFOJ #1037
+HFOJ #1037 明明的随机数
+
 url: http://www.hfoj.net/problem/1037
 """
 

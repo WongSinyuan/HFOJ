@@ -8,7 +8,8 @@
 # @GitHub: https://github.com/WongSinyuan/HFOJ
 
 """
-HFOJ #1047
+HFOJ #1047 角谷猜想
+
 url: http://www.hfoj.net/problem/1047
 """
 num = int(input())

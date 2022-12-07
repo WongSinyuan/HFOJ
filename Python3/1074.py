@@ -8,7 +8,8 @@
 # @GitHub: https://github.com/WongSinyuan/HFOJ
 
 """
-HFOJ #1074
+HFOJ #1074 比例简化
+
 url: http://www.hfoj.net/problem/1074
 """
 

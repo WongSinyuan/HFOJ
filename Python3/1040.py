@@ -8,7 +8,8 @@
 # @GitHub: https://github.com/WongSinyuan/HFOJ
 
 """
-HFOJ #1040
+HFOJ #1040 字数统计
+
 url: http://www.hfoj.net/problem/1040
 """
 

@@ -8,7 +8,8 @@
 # @GitHub: https://github.com/WongSinyuan/HFOJ
 
 """
-HFOJ #1087
+HFOJ #1087 上台阶1
+
 url: http://www.hfoj.net/problem/1087
 """
 

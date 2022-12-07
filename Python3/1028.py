@@ -8,7 +8,8 @@
 # @GitHub: https://github.com/WongSinyuan/HFOJ
 
 """
-HFOJ #1028
+HFOJ #1028 榕榕学英语
+
 url: http://www.hfoj.net/problem/1028
 """
 n = int(input())

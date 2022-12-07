@@ -8,7 +8,8 @@
 # @GitHub: https://github.com/WongSinyuan/HFOJ
 
 """
-HFOJ #1014
+HFOJ #1014 能量分析
+
 url: http://www.hfoj.net/problem/1014
 """
 

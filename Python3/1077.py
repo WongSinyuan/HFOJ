@@ -8,7 +8,8 @@
 # @GitHub: https://github.com/WongSinyuan/HFOJ
 
 """
-HFOJ #1077
+HFOJ #1077 计算鞍点
+
 url: http://www.hfoj.net/problem/1077
 """
 

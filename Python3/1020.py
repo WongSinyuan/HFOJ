@@ -8,7 +8,8 @@
 # @GitHub: https://github.com/WongSinyuan/HFOJ
 
 """
-HFOJ #1020
+HFOJ #1020 商家
+
 url: http://www.hfoj.net/problem/1020
 """
 import math

@@ -8,7 +8,8 @@
 # @GitHub: https://github.com/WongSinyuan/HFOJ
 
 """
-HFOJ #1044
+HFOJ #1044 金币问题
+
 url: http://www.hfoj.net/problem/1044
 """
 

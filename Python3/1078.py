@@ -8,7 +8,8 @@
 # @GitHub: https://github.com/WongSinyuan/HFOJ
 
 """
-HFOJ #1078
+HFOJ #1078 删除单词后缀
+
 url: http://www.hfoj.net/problem/1078
 """
 

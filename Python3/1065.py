@@ -8,7 +8,8 @@
 # @GitHub: https://github.com/WongSinyuan/HFOJ
 
 """
-HFOJ #1065
+HFOJ #1065 杨辉三角
+
 url: http://www.hfoj.net/problem/1065
 """
 n = int(input())

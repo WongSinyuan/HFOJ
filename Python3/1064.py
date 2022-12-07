@@ -8,7 +8,8 @@
 # @GitHub: https://github.com/WongSinyuan/HFOJ
 
 """
-HFOJ #1064
+HFOJ #1064 回型方阵
+
 url: http://www.hfoj.net/problem/1064
 """
 n = int(input())

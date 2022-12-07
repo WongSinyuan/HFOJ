@@ -8,7 +8,8 @@
 # @GitHub: https://github.com/WongSinyuan/HFOJ
 
 """
-HFOJ #1022
+HFOJ #1022 校验码生成
+
 url: http://www.hfoj.net/problem/1022
 """
 

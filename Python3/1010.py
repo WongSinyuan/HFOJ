@@ -8,7 +8,8 @@
 # @GitHub: https://github.com/WongSinyuan/HFOJ
 
 """
-HFOJ #1010
+HFOJ #1010 立方体的高和表面积
+
 url: http://www.hfoj.net/problem/1010
 """
 

@@ -8,7 +8,8 @@
 # @GitHub: https://github.com/WongSinyuan/HFOJ
 
 """
-HFOJ #1043
+HFOJ #1043 最大公约数
+
 url: http://www.hfoj.net/problem/1043
 """
 

@@ -8,7 +8,8 @@
 # @GitHub: https://github.com/WongSinyuan/HFOJ
 
 """
-HFOJ #1005
+HFOJ #1005 四则运算1
+
 url: http://www.hfoj.net/problem/1005
 """
 

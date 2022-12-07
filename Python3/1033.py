@@ -8,7 +8,8 @@
 # @GitHub: https://github.com/WongSinyuan/HFOJ
 
 """
-HFOJ #1033
+HFOJ #1033 休息？工作？
+
 url: http://www.hfoj.net/problem/1033
 """
 

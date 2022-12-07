@@ -7,7 +7,9 @@
 # @Project: HFOJ
 
 """
-文件说明:HFOJ #1011
+HFOJ #1011 桌子和椅子
+
+url: http://www.hfoj.net/problem/1011
 """
 
 x, m, n = list(map(float, input().split()))

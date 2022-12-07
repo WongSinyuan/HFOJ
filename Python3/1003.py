@@ -8,7 +8,8 @@
 # @GitHub: https://github.com/WongSinyuan/HFOJ
 
 """
-HFOJ #1003
+HFOJ #1003 输出语句2
+
 url: http://www.hfoj.net/problem/1003
 """
 

@@ -8,7 +8,8 @@
 # @GitHub: https://github.com/WongSinyuan/HFOJ
 
 """
-HFOJ #1029
+HFOJ #1029 回文质数
+
 url: http://www.hfoj.net/problem/1029
 """
 
@@ -19,8 +20,8 @@ def if_su(num) -> bool:
     :param num: 数
     :return: 是否为质数
     """
-    for i in range(2, int(num ** 0.5 + 1)):
-        if num % i == 0:
+    for k in range(2, int(num ** 0.5 + 1)):
+        if num % k == 0:
             return False
     return True
 

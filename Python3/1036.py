@@ -8,7 +8,8 @@
 # @GitHub: https://github.com/WongSinyuan/HFOJ
 
 """
-HFOJ #1036
+HFOJ #1036 最小字典序
+
 url: http://www.hfoj.net/problem/1036
 """
 s = list(input())

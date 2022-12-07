@@ -8,7 +8,8 @@
 # @GitHub: https://github.com/WongSinyuan/HFOJ
 
 """
-HFOJ #1021
+HFOJ #1021 硬盘容量
+
 url: http://www.hfoj.net/problem/1021
 """
 

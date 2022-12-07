@@ -8,7 +8,8 @@
 # @GitHub: https://github.com/WongSinyuan/HFOJ
 
 """
-HFOJ #1007
+HFOJ #1007 矩形的周长和面积
+
 url: http://www.hfoj.net/problem/1007
 """
 

@@ -8,7 +8,9 @@
 # @GitHub: https://github.com/WongSinyuan/HFOJ
 
 """
-文件说明:HFOJ #1017
+HFOJ #1017 平均环数
+
+url: http://www.hfoj.net/problem/1017
 """
 
 nums = [int(i) for i in input().split(" ")]

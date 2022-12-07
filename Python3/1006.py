@@ -8,7 +8,8 @@
 # @GitHub: https://github.com/WongSinyuan/HFOJ
 
 """
-HFOJ #1006
+HFOJ #1006 四则运算2
+
 url: http://www.hfoj.net/problem/1006
 """
 a, b = list(map(int, input().split()))

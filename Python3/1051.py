@@ -8,7 +8,8 @@
 # @GitHub: https://github.com/WongSinyuan/HFOJ
 
 """
-HFOJ #1051
+HFOJ #1051 含k个3的数
+
 url: http://www.hfoj.net/problem/1051
 """
 m, n, k = map(int, input().split())
