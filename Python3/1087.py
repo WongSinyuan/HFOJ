@@ -14,20 +14,15 @@ url: http://www.hfoj.net/problem/1087
 """
 
 
-def df(x: int) -> list:
-    """
-    所有上台阶的方案
-
-    :param x: 总级数
-    :return: 方案
-    """
-    if x == 1:
-        return [[1]]
-    elif x == 2:
-        return [[1, 1], [2]]
+def f(a, b):
+    if a == 1:
+        print(b + "1")
+    elif a == 2:
+        print(b + "11")
+        print(b + "2")
     else:
-        return [i + [1] for i in df(x - 1)] + [j + [2] for j in df(x - 2)]
+        f(a - 1, b + "1")
+        f(a - 2, b + "2")
 
 
-for k in sorted(df(int(input()))):  # 不知道怎么按字典序输出QAQ
-    print("".join(map(str, k)))
+f(int(input()), "")

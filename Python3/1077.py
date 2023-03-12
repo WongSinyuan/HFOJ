@@ -29,7 +29,7 @@ for y in range(5):
         if max(row[y]) == min(col[x]):
             re = [y + 1, x + 1, row[y][x]]
 
-if not re:
-    print('not found')
-else:
+if re:
     print(" ".join(map(str, re)))
+else:
+    print('not found')
