@@ -13,7 +13,5 @@ HFOJ #1041 数字反转
 url: http://www.hfoj.net/problem/1041
 """
 
-s = list(input())
-f = len(s) // 2
-s[:f], s[f + len(s) % 2:] = s[f + len(s) % 2:], s[:f]
-print("".join(s))
+s = (input())
+print(s[len(s) // 2 + len(s) % 2:] + s[len(s) // 2: len(s) // 2 + len(s) % 2] + s[:len(s) // 2])

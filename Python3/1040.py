@@ -15,5 +15,5 @@ url: http://www.hfoj.net/problem/1040
 
 s = input().lower()
 
-for j in [(i, s.count(i)) for i in "abcdefghijklmnopqrstuvwxyz" if s.count(i) != 0]:
-    print(j[0], j[1])
+for m, n in [(chr(i), s.count(chr(i))) for i in range(97, 123) if s.count(chr(i)) != 0]:
+    print(m, n)

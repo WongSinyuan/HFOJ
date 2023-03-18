@@ -14,12 +14,11 @@ url: http://www.hfoj.net/problem/1088
 """
 
 
-def f(a, b):
+def f(a, lis):
     if a != 1:
-        for i in range(1, a // 2 + 1):
-            if (b and b[-1] <= i) or not b:
-                f(a - i, b + [i])
-    print(" ".join(list(map(str, b + [a]))) + " ")  # 又是这该死的空格
+        for i in range(lis[-1] if lis else 1, a // 2 + 1):
+            f(a - i, lis + [i])
+    print(" ".join(map(str, lis + [a])) + " ")  # 又是这该死的空格
 
 
 f(int(input()), [])
